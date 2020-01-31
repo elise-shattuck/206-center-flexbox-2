@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -110,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -117,23 +118,25 @@ body {
 
 #content {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background: #222;
     background:rgba(0,0,0,0.7);
     color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    margin: 2% 30px;
+    width: 25%;
+    height: 20%;
+    min-height: 200px;
 }
 
 #content p span {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Croissant One', serif;
 }
 
 
